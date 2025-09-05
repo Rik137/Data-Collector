@@ -1,0 +1,70 @@
+{
+  "1" : {
+    "namberName" : "1",
+    "Stations" : "Коммунарка"
+  },
+  "2" : {
+    "namberName" : "2",
+    "Stations" : "Алма-Атинская"
+  },
+  "3" : {
+    "namberName" : "3",
+    "Stations" : "Щелковская"
+  },
+  "4" : {
+    "namberName" : "4",
+    "Stations" : "Международная"
+  },
+  "5" : {
+    "namberName" : "5",
+    "Stations" : "Краснопресненская"
+  },
+  "6" : {
+    "namberName" : "6",
+    "Stations" : "Медведково"
+  },
+  "7" : {
+    "namberName" : "7",
+    "Stations" : "Планерная"
+  },
+  "8" : {
+    "namberName" : "8",
+    "Stations" : "Рассказовка"
+  },
+  "9" : {
+    "namberName" : "9",
+    "Stations" : "Алтуфьево"
+  },
+  "10" : {
+    "namberName" : "10",
+    "Stations" : "Селигерская"
+  },
+  "11" : {
+    "namberName" : "11",
+    "Stations" : "Деловой центр"
+  },
+  "11A" : {
+    "namberName" : "11A",
+    "Stations" : "Каширская"
+  },
+  "12" : {
+    "namberName" : "12",
+    "Stations" : "Бунинская Аллея"
+  },
+  "14" : {
+    "namberName" : "14",
+    "Stations" : "Лихоборы"
+  },
+  "15" : {
+    "namberName" : "15",
+    "Stations" : "Некрасовка"
+  },
+  "D1" : {
+    "namberName" : "D1",
+    "Stations" : "Лобня"
+  },
+  "D2" : {
+    "namberName" : "D2",
+    "Stations" : "Подольск"
+  }
+}
