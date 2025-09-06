@@ -22,7 +22,7 @@ public class ParserFileJson {
                     stations.add(station);
                 }
             }else {
-                throw new NotFoundFileJsonOrCsvException("не найдено JSON файл или имеются файлы иного формата");
+                throw new NotFoundFileJsonOrCsvException("JSON file was not found or there are files of another format");
             }
         }
         return stations;
@@ -30,8 +30,8 @@ public class ParserFileJson {
 
     public static void printJsonFile(List<Station> list) {
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(i + ". Станция -> " + list.get(i).getStationName() +
-                    " , глубина: " + list.get(i).getDepth());
+            System.out.println(i + ". Station -> " + list.get(i).getStationName() +
+                    " , deep: " + list.get(i).getDepth());
         }
     }
 }
