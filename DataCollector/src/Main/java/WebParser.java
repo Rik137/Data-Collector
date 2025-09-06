@@ -68,12 +68,12 @@ public class WebParser {
     }
 
     public void printLines(List<Line> lines) {
-        lines.forEach(line -> System.out.println("Линия -> " + "название: " + line.getNameLine() +
-                " , номер: " + line.getNumberLine()));
+        lines.forEach(line -> System.out.println("line -> " + "name: " + line.getNameLine() +
+                " , number: " + line.getNumberLine()));
     }
 
     public void printStations(List<Station> stations) {
-        stations.forEach(station -> System.out.println("Станция -> " + "название: " + station.getStationName() + " , линия "
+        stations.forEach(station -> System.out.println("station -> " + "name: " + station.getStationName() + " , line "
                 + station.getLine().getNumberLine()));
     }
 }
