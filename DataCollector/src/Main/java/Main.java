@@ -9,20 +9,20 @@ public class Main {
     private static final String path3 = "File1.json";
     private static final String path2 = "Data.html";
     public static void main(String[] args) throws Exception {
-        System.out.println("задание №1 парсинк web-страницы");
+        System.out.println("Task No1 Parsync Web Pages");
         WebParser webPageParsing = new WebParser(url);
         List<Line> lines = webPageParsing.parseLine(path2);
         webPageParsing.printLines(lines);
         List<Station> stations = webPageParsing.parseStation(path2);
         webPageParsing.printStations(stations);
-        System.out.println("задание №2 обховд и поиск файлов");
+        System.out.println("Task No2 File search");
         System.out.println(FolderSearch.walkAllFiles(path));
         System.out.println(FolderSearch.walkAndFindFilesCSV(path));
         System.out.println(FolderSearch.walkAndFindFilesJSON(path));
-        System.out.println("задание №3 парсинг json файлов");
+        System.out.println("Task No3 Parsing JSON Files");
         List<Station> stationsFromJsonFiles = ParserFileJson.parsingJson(FolderSearch.walkAndFindFilesJSON(path));
         ParserFileJson.printJsonFile(stationsFromJsonFiles);
-        System.out.println("задание №4 парсинг Csv файлов");
+        System.out.println("зTask No4 Parsing Csv Files");
         List<Station> stationsFromCsvFiles = ParserFileCsv.parsingCsv(FolderSearch.walkAndFindFilesCSV(path));
         ParserFileCsv.printCsvFiles(stationsFromCsvFiles);
         CreatesAndWritesToDisk createsAndWritesToDisk = new CreatesAndWritesToDisk();
