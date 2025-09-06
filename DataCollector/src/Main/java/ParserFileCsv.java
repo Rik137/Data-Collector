@@ -29,15 +29,15 @@ public class ParserFileCsv {
                     }
                 }
             } else {
-                throw new NotFoundFileJsonOrCsvException("не найдено CSV файл или имеются файлы иного формата");
+                throw new NotFoundFileJsonOrCsvException("CSV file was not found or there are files of a different format");
             }
         }
         return stations;
     }
     public static void printCsvFiles(List<Station> list){
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(i + ". Станция -> " + list.get(i).getStationName() +
-                    " , дата: " + list.get(i).getDate());
+            System.out.println(i + ". Station -> " + list.get(i).getStationName() +
+                    " , date: " + list.get(i).getDate());
         }
     }
 }
